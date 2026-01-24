@@ -1,0 +1,146 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body{
+    background-color: rgb(255, 255, 255);
+}
+header{
+    background-color: lightgray;
+    padding: 20px;
+    position: fixed;
+    width: 100%;
+} 
+.nav-cont{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+header>div>a{
+    text-decoration: none;
+    border: 2px solid blue;
+    padding: 10px;
+    border-radius: 5px;
+}
+.nav-cont>.btn:hover{
+    background-color: blue;
+    color: white;
+    transition: all 1 ease-in;
+}
+nav{
+    display: flex;
+    gap: 10px;
+}
+nav>a{
+    text-decoration: none;
+}
+.hero-section{
+    height: 80vh;
+    background-image: url("images/background-img.jpg");
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+   
+}
+.cta{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding-top: 100px;
+    color: white;
+    text-align: center;
+}
+.cta>h1{
+    color: purple;
+    font-size: 35px;
+    font-weight: bold;
+}
+.cta>p{
+    color: rgb(48, 46, 46);
+    font-size: 23px;
+}
+.cta-btn{
+    margin-top: 10px;
+    display: flex;
+    gap: 10px;
+    justify-content: center;
+}
+.cta-btn>a{
+    text-decoration: none;
+    border: none;
+    padding: 10px;
+    border-radius: 5px;
+    background-color: blue;
+    color: white;
+    font-size: 21px;
+}
+.cta-btn>a:hover{
+    background-color: lightseagreen;
+    transition: all 1s ease-in;
+}
+.about-cont{
+    padding: 10px;
+}
+.doc-pic{
+    height: 40vh;
+    background-image: url("images/doctor2.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+
+    background-color: antiquewhite;
+}
+.about-desc{
+    font-size: 23px;
+    color: rgb(31, 29, 29);
+    text-align: justify;
+    padding-top: 15px;
+}
+.services{
+     padding: 15px;
+}
+.service-lists{
+    
+}
+
+.our-service{
+  margin-top: 25px;
+ 
+}
+.service-img{
+    height: 30vh;
+    background-image: url("images/service1.png");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+h2{
+    color: blue;
+}
+.shedule-btn{
+    display: flex;
+    justify-content: center;
+    margin: auto;
+    width: 250px;
+    background-color: blue;
+    color: white;
+    text-decoration: none;
+    padding: 17px 10px;
+    font-size: 18px;
+    border-radius: 5px;
+    font-weight: bold;
+}
+.shedule-btn:hover{
+    background-color: lightseagreen;
+    transition: all 1s ease-in;
+}
+.our-service h3{
+    font-size: 22px;
+    color: rgb(33, 30, 30);
+}
+.our-service p{
+    font-size: 18px;
+    color: rgb(54, 51, 51);
+    text-align: justify;
+    padding-top: 10px;
+}
