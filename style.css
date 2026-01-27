@@ -144,3 +144,53 @@ h2{
     text-align: justify;
     padding-top: 10px;
 }
+.contact-cont{
+    background-color: lightgray;
+}
+.contact-info{
+    background-color: antiquewhite;
+    padding: 10px;
+}
+.contact-info p{
+    font-size: 18px;
+    font-weight: bolder;
+    color:purple;
+    padding: 5px 0;
+}
+.contact-info p>a{
+    text-decoration: none;
+    color: blue;
+}
+.contact-form{
+    padding: 10px;
+}
+form{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form div{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+form div input, form textarea{
+    padding: 5px;
+    font-size: 18px;
+    font-weight: bold;
+    border-radius: 5px;
+    color: red;
+}
+form button{
+    border-radius: 5px;
+    padding: 10px;
+    font-size: 20px;
+    background-color: purple;
+    color: white;
+    border: none;
+    font-weight: bold;
+}
+form button:hover{
+    background-color: blue;
+    transition: all 1s ease-in;
+}
