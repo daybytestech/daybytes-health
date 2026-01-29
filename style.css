@@ -194,3 +194,101 @@ form button:hover{
     background-color: blue;
     transition: all 1s ease-in;
 }
+
+.testimonials{
+    padding: 15px;
+}
+.feedback-card{
+    display:flex;
+    gap: 10px;
+    flex-direction: column;
+}
+.client-feedback{
+    padding: 10px;
+    border-radius: 10px;
+    background-color: antiquewhite;
+}
+.client-feedback p{
+    font-size: 27px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    
+}
+.client-feedback h3{
+    font-size: 24px;
+    color:purple
+}
+footer{
+    background-color: blue;
+
+}
+.footer-cont{
+    padding: 10px;
+
+}
+.footer-cont div{
+
+}
+.footer-about p {
+    color:white;
+    font-size: 21px;
+    text-align: justify;
+    margin-bottom: 10px;
+}
+.footer-about a{
+    text-decoration: none;
+    background-color: white;
+    color: blue;
+    padding: 5px;
+    border-radius: 5px;
+    font-size: 18px;
+   font-weight: bold;
+}
+.footer-about a:hover{
+    background-color: purple;
+    color: white;
+}
+.quick-links{
+    margin:10px 10px;
+    text-align: center;
+}
+.quick-links h3{
+    font-size: 25px;
+}
+.quick-links>ul>li{
+    list-style: none;
+}
+.quick-links>ul>li>a{
+    text-decoration: none;
+    color: white;
+    font-size: 21px;
+    font-weight: bold;
+}
+.quick-links>ul>li>a:hover{
+    color: purple
+}
+.subscribe h3{
+    font-size: 25px;
+    text-align: center;
+ }
+ .subscribe>form>input{
+    font-size: 20px;
+    font-weight: bold;
+    padding : 6px;
+    border-radius: 10px;
+    border: none;
+ }
+ .subscribe>form>input:focus{
+    outline: none;
+ }
+.sub.btn{
+    border-radius: 10px;
+}
+ .sub-btn:hover{
+    background-color: brown;
+    transition: none;
+ }
+ footer p{
+    text-align: center;
+    color: white;
+    font-size: 18px;
+ }
